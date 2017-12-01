@@ -5,10 +5,10 @@ var wrapLog = function (callback, name) {
       var y = arguments[1];
       console.log(name + "(" + x + ", " + y + ") => " + callback(x,y));
     } else if (arguments.length === 3) {
-      var x = arguments[0];
-      var y = arguments[1];
-      var z = arguments[2];
-      console.log(name + "(" + x + ", " + y + ", " + z + ") => " + callback(x,y,z));
+      var a = arguments[0];
+      var b = arguments[1];
+      var c = arguments[2];
+      console.log(name + "(" + a + ", " + b + ", " + c + ") => " + callback(a,b,c));
     }
 
   };
