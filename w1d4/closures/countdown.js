@@ -15,8 +15,6 @@ var countdownGenerator = function (x) {  // var y = 0;
     }
   };
 
-
-
 };
 
 var countdown = countdownGenerator(3);
